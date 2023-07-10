@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F36D876B2A58B13C00B341F0 /* NotiusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D876A2A58B13C00B341F0 /* NotiusApp.swift */; };
+		F36D876D2A58B13C00B341F0 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D876C2A58B13C00B341F0 /* Note.swift */; };
+		F36D876F2A58B13C00B341F0 /* Note List.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D876E2A58B13C00B341F0 /* Note List.swift */; };
+		F36D87712A58B13F00B341F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36D87702A58B13F00B341F0 /* Assets.xcassets */; };
+		F36D87752A58B13F00B341F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36D87742A58B13F00B341F0 /* Preview Assets.xcassets */; };
+		F36D87802A58B13F00B341F0 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D877F2A58B13F00B341F0 /* Tests.swift */; };
+		F36D878A2A58B13F00B341F0 /* UI Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D87892A58B13F00B341F0 /* UI Tests.swift */; };
+		F36D878C2A58B13F00B341F0 /* Launch Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D878B2A58B13F00B341F0 /* Launch Test.swift */; };
+		F36D87992A58B2F300B341F0 /* Note Editor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D87982A58B2F300B341F0 /* Note Editor.swift */; };
+		F36D879B2A58BB0B00B341F0 /* App Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D879A2A58BB0B00B341F0 /* App Container.swift */; };
+		F377EC822A58C4F9009A2A05 /* NoteEditor Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377EC812A58C4F9009A2A05 /* NoteEditor Toolbar.swift */; };
+		F377EC852A58C624009A2A05 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F377EC842A58C624009A2A05 /* ScrechKit */; };
+		F377EC872A58C754009A2A05 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377EC862A58C754009A2A05 /* Settings.swift */; };
+		F377EC8A2A58CDA3009A2A05 /* Settings Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377EC892A58CDA3009A2A05 /* Settings Parent.swift */; };
+		F377EC8E2A58D3A9009A2A05 /* Nav Destinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377EC8D2A58D3A9009A2A05 /* Nav Destinations.swift */; };
+		F377EC902A58D3B4009A2A05 /* Nav State.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377EC8F2A58D3B4009A2A05 /* Nav State.swift */; };
+		F377EC922A58D3C1009A2A05 /* Nav Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377EC912A58D3C1009A2A05 /* Nav Extension.swift */; };
+		F377EC952A58D66F009A2A05 /* AlertKit in Frameworks */ = {isa = PBXBuildFile; productRef = F377EC942A58D66F009A2A05 /* AlertKit */; };
+		F377EC972A58D687009A2A05 /* System Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377EC962A58D687009A2A05 /* System Alerts.swift */; };
+		F377EC992A594918009A2A05 /* Pin Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377EC982A594918009A2A05 /* Pin Button.swift */; };
+		F377EC9B2A59701C009A2A05 /* Note Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377EC9A2A59701C009A2A05 /* Note Item.swift */; };
+		F377EC9E2A597565009A2A05 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F377EC9D2A597565009A2A05 /* Localizable.xcstrings */; };
+		F377ECA02A59E3CB009A2A05 /* Preview Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377EC9F2A59E3CB009A2A05 /* Preview Note.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F36D877C2A58B13F00B341F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F36D875F2A58B13C00B341F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F36D87662A58B13C00B341F0;
+			remoteInfo = Notius;
+		};
+		F36D87862A58B13F00B341F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F36D875F2A58B13C00B341F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F36D87662A58B13C00B341F0;
+			remoteInfo = Notius;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F36D87672A58B13C00B341F0 /* Notius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36D876A2A58B13C00B341F0 /* NotiusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiusApp.swift; sourceTree = "<group>"; };
+		F36D876C2A58B13C00B341F0 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		F36D876E2A58B13C00B341F0 /* Note List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note List.swift"; sourceTree = "<group>"; };
+		F36D87702A58B13F00B341F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F36D87722A58B13F00B341F0 /* Notius.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Notius.entitlements; sourceTree = "<group>"; };
+		F36D87742A58B13F00B341F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F36D87762A58B13F00B341F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36D877B2A58B13F00B341F0 /* NotiusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotiusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36D877F2A58B13F00B341F0 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		F36D87852A58B13F00B341F0 /* NotiusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotiusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36D87892A58B13F00B341F0 /* UI Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI Tests.swift"; sourceTree = "<group>"; };
+		F36D878B2A58B13F00B341F0 /* Launch Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Launch Test.swift"; sourceTree = "<group>"; };
+		F36D87982A58B2F300B341F0 /* Note Editor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note Editor.swift"; sourceTree = "<group>"; };
+		F36D879A2A58BB0B00B341F0 /* App Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App Container.swift"; sourceTree = "<group>"; };
+		F377EC812A58C4F9009A2A05 /* NoteEditor Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditor Toolbar.swift"; sourceTree = "<group>"; };
+		F377EC862A58C754009A2A05 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		F377EC892A58CDA3009A2A05 /* Settings Parent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings Parent.swift"; sourceTree = "<group>"; };
+		F377EC8D2A58D3A9009A2A05 /* Nav Destinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nav Destinations.swift"; sourceTree = "<group>"; };
+		F377EC8F2A58D3B4009A2A05 /* Nav State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nav State.swift"; sourceTree = "<group>"; };
+		F377EC912A58D3C1009A2A05 /* Nav Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nav Extension.swift"; sourceTree = "<group>"; };
+		F377EC962A58D687009A2A05 /* System Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "System Alerts.swift"; sourceTree = "<group>"; };
+		F377EC982A594918009A2A05 /* Pin Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pin Button.swift"; sourceTree = "<group>"; };
+		F377EC9A2A59701C009A2A05 /* Note Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note Item.swift"; sourceTree = "<group>"; };
+		F377EC9D2A597565009A2A05 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		F377EC9F2A59E3CB009A2A05 /* Preview Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Preview Note.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F36D87642A58B13C00B341F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F377EC952A58D66F009A2A05 /* AlertKit in Frameworks */,
+				F377EC852A58C624009A2A05 /* ScrechKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36D87782A58B13F00B341F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36D87822A58B13F00B341F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F36D875E2A58B13C00B341F0 = {
+			isa = PBXGroup;
+			children = (
+				F36D87692A58B13C00B341F0 /* Notius */,
+				F36D877E2A58B13F00B341F0 /* Tests */,
+				F36D87882A58B13F00B341F0 /* UI Tests */,
+				F36D87682A58B13C00B341F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F36D87682A58B13C00B341F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F36D87672A58B13C00B341F0 /* Notius.app */,
+				F36D877B2A58B13F00B341F0 /* NotiusTests.xctest */,
+				F36D87852A58B13F00B341F0 /* NotiusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F36D87692A58B13C00B341F0 /* Notius */ = {
+			isa = PBXGroup;
+			children = (
+				F36D876A2A58B13C00B341F0 /* NotiusApp.swift */,
+				F377EC962A58D687009A2A05 /* System Alerts.swift */,
+				F36D876C2A58B13C00B341F0 /* Note.swift */,
+				F377EC9F2A59E3CB009A2A05 /* Preview Note.swift */,
+				F377EC8C2A58CE33009A2A05 /* Navigation */,
+				F377EC8B2A58CE1E009A2A05 /* Notes */,
+				F377EC882A58C75C009A2A05 /* Settings */,
+				F36D87702A58B13F00B341F0 /* Assets.xcassets */,
+				F36D87722A58B13F00B341F0 /* Notius.entitlements */,
+				F36D87762A58B13F00B341F0 /* Info.plist */,
+				F377EC9D2A597565009A2A05 /* Localizable.xcstrings */,
+				F36D87732A58B13F00B341F0 /* Preview Content */,
+			);
+			path = Notius;
+			sourceTree = "<group>";
+		};
+		F36D87732A58B13F00B341F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F36D87742A58B13F00B341F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F36D877E2A58B13F00B341F0 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F36D877F2A58B13F00B341F0 /* Tests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		F36D87882A58B13F00B341F0 /* UI Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F36D87892A58B13F00B341F0 /* UI Tests.swift */,
+				F36D878B2A58B13F00B341F0 /* Launch Test.swift */,
+			);
+			path = "UI Tests";
+			sourceTree = "<group>";
+		};
+		F377EC882A58C75C009A2A05 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F377EC862A58C754009A2A05 /* Settings.swift */,
+				F377EC892A58CDA3009A2A05 /* Settings Parent.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F377EC8B2A58CE1E009A2A05 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				F36D876E2A58B13C00B341F0 /* Note List.swift */,
+				F377EC982A594918009A2A05 /* Pin Button.swift */,
+				F377EC9A2A59701C009A2A05 /* Note Item.swift */,
+				F377EC9C2A597248009A2A05 /* Editor */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		F377EC8C2A58CE33009A2A05 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F36D879A2A58BB0B00B341F0 /* App Container.swift */,
+				F377EC8F2A58D3B4009A2A05 /* Nav State.swift */,
+				F377EC8D2A58D3A9009A2A05 /* Nav Destinations.swift */,
+				F377EC912A58D3C1009A2A05 /* Nav Extension.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F377EC9C2A597248009A2A05 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				F36D87982A58B2F300B341F0 /* Note Editor.swift */,
+				F377EC812A58C4F9009A2A05 /* NoteEditor Toolbar.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F36D87662A58B13C00B341F0 /* Notius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36D878F2A58B13F00B341F0 /* Build configuration list for PBXNativeTarget "Notius" */;
+			buildPhases = (
+				F36D87632A58B13C00B341F0 /* Sources */,
+				F36D87642A58B13C00B341F0 /* Frameworks */,
+				F36D87652A58B13C00B341F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notius;
+			packageProductDependencies = (
+				F377EC842A58C624009A2A05 /* ScrechKit */,
+				F377EC942A58D66F009A2A05 /* AlertKit */,
+			);
+			productName = Notius;
+			productReference = F36D87672A58B13C00B341F0 /* Notius.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F36D877A2A58B13F00B341F0 /* NotiusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36D87922A58B13F00B341F0 /* Build configuration list for PBXNativeTarget "NotiusTests" */;
+			buildPhases = (
+				F36D87772A58B13F00B341F0 /* Sources */,
+				F36D87782A58B13F00B341F0 /* Frameworks */,
+				F36D87792A58B13F00B341F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F36D877D2A58B13F00B341F0 /* PBXTargetDependency */,
+			);
+			name = NotiusTests;
+			productName = NotiusTests;
+			productReference = F36D877B2A58B13F00B341F0 /* NotiusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F36D87842A58B13F00B341F0 /* NotiusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36D87952A58B13F00B341F0 /* Build configuration list for PBXNativeTarget "NotiusUITests" */;
+			buildPhases = (
+				F36D87812A58B13F00B341F0 /* Sources */,
+				F36D87822A58B13F00B341F0 /* Frameworks */,
+				F36D87832A58B13F00B341F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F36D87872A58B13F00B341F0 /* PBXTargetDependency */,
+			);
+			name = NotiusUITests;
+			productName = NotiusUITests;
+			productReference = F36D87852A58B13F00B341F0 /* NotiusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F36D875F2A58B13C00B341F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F36D87662A58B13C00B341F0 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F36D877A2A58B13F00B341F0 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F36D87662A58B13C00B341F0;
+					};
+					F36D87842A58B13F00B341F0 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F36D87662A58B13C00B341F0;
+					};
+				};
+			};
+			buildConfigurationList = F36D87622A58B13C00B341F0 /* Build configuration list for PBXProject "Notius" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = F36D875E2A58B13C00B341F0;
+			packageReferences = (
+				F377EC832A58C624009A2A05 /* XCRemoteSwiftPackageReference "ScrechKit" */,
+				F377EC932A58D66F009A2A05 /* XCRemoteSwiftPackageReference "AlertKit" */,
+			);
+			productRefGroup = F36D87682A58B13C00B341F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F36D87662A58B13C00B341F0 /* Notius */,
+				F36D877A2A58B13F00B341F0 /* NotiusTests */,
+				F36D87842A58B13F00B341F0 /* NotiusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F36D87652A58B13C00B341F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36D87752A58B13F00B341F0 /* Preview Assets.xcassets in Resources */,
+				F36D87712A58B13F00B341F0 /* Assets.xcassets in Resources */,
+				F377EC9E2A597565009A2A05 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36D87792A58B13F00B341F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36D87832A58B13F00B341F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F36D87632A58B13C00B341F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36D879B2A58BB0B00B341F0 /* App Container.swift in Sources */,
+				F377EC822A58C4F9009A2A05 /* NoteEditor Toolbar.swift in Sources */,
+				F377EC8E2A58D3A9009A2A05 /* Nav Destinations.swift in Sources */,
+				F377EC992A594918009A2A05 /* Pin Button.swift in Sources */,
+				F36D876D2A58B13C00B341F0 /* Note.swift in Sources */,
+				F377EC922A58D3C1009A2A05 /* Nav Extension.swift in Sources */,
+				F377EC902A58D3B4009A2A05 /* Nav State.swift in Sources */,
+				F377ECA02A59E3CB009A2A05 /* Preview Note.swift in Sources */,
+				F377EC8A2A58CDA3009A2A05 /* Settings Parent.swift in Sources */,
+				F36D876B2A58B13C00B341F0 /* NotiusApp.swift in Sources */,
+				F377EC872A58C754009A2A05 /* Settings.swift in Sources */,
+				F36D876F2A58B13C00B341F0 /* Note List.swift in Sources */,
+				F377EC972A58D687009A2A05 /* System Alerts.swift in Sources */,
+				F377EC9B2A59701C009A2A05 /* Note Item.swift in Sources */,
+				F36D87992A58B2F300B341F0 /* Note Editor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36D87772A58B13F00B341F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36D87802A58B13F00B341F0 /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36D87812A58B13F00B341F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36D878C2A58B13F00B341F0 /* Launch Test.swift in Sources */,
+				F36D878A2A58B13F00B341F0 /* UI Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F36D877D2A58B13F00B341F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F36D87662A58B13C00B341F0 /* Notius */;
+			targetProxy = F36D877C2A58B13F00B341F0 /* PBXContainerItemProxy */;
+		};
+		F36D87872A58B13F00B341F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F36D87662A58B13C00B341F0 /* Notius */;
+			targetProxy = F36D87862A58B13F00B341F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F36D878D2A58B13F00B341F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		F36D878E2A58B13F00B341F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		F36D87902A58B13F00B341F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Notius/Notius.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_ASSET_PATHS = "\"Notius/Preview Content\"";
+				DEVELOPMENT_TEAM = 8FQUA2F388;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Notius/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Notius;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.topscrech.Notius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3,7";
+			};
+			name = Debug;
+		};
+		F36D87912A58B13F00B341F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Notius/Notius.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0;
+				DEVELOPMENT_ASSET_PATHS = "\"Notius/Preview Content\"";
+				DEVELOPMENT_TEAM = 8FQUA2F388;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Notius/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Notius;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.9;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.topscrech.Notius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3,7";
+			};
+			name = Release;
+		};
+		F36D87932A58B13F00B341F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FQUA2F388;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.topscrech.NotiusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notius.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Notius";
+			};
+			name = Debug;
+		};
+		F36D87942A58B13F00B341F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FQUA2F388;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.topscrech.NotiusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notius.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Notius";
+			};
+			name = Release;
+		};
+		F36D87962A58B13F00B341F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FQUA2F388;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.topscrech.NotiusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Notius;
+			};
+			name = Debug;
+		};
+		F36D87972A58B13F00B341F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FQUA2F388;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.topscrech.NotiusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Notius;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F36D87622A58B13C00B341F0 /* Build configuration list for PBXProject "Notius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36D878D2A58B13F00B341F0 /* Debug */,
+				F36D878E2A58B13F00B341F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36D878F2A58B13F00B341F0 /* Build configuration list for PBXNativeTarget "Notius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36D87902A58B13F00B341F0 /* Debug */,
+				F36D87912A58B13F00B341F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36D87922A58B13F00B341F0 /* Build configuration list for PBXNativeTarget "NotiusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36D87932A58B13F00B341F0 /* Debug */,
+				F36D87942A58B13F00B341F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36D87952A58B13F00B341F0 /* Build configuration list for PBXNativeTarget "NotiusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36D87962A58B13F00B341F0 /* Debug */,
+				F36D87972A58B13F00B341F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F377EC832A58C624009A2A05 /* XCRemoteSwiftPackageReference "ScrechKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TopScrech/ScrechKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		F377EC932A58D66F009A2A05 /* XCRemoteSwiftPackageReference "AlertKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparrowcode/AlertKit";
+			requirement = {
+				branch = v5;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F377EC842A58C624009A2A05 /* ScrechKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F377EC832A58C624009A2A05 /* XCRemoteSwiftPackageReference "ScrechKit" */;
+			productName = ScrechKit;
+		};
+		F377EC942A58D66F009A2A05 /* AlertKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F377EC932A58D66F009A2A05 /* XCRemoteSwiftPackageReference "AlertKit" */;
+			productName = AlertKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F36D875F2A58B13C00B341F0 /* Project object */;
+}

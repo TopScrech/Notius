@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "alertkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sparrowcode/AlertKit",
+      "state" : {
+        "branch" : "v5",
+        "revision" : "465ffbffe13448e014dc5c987aa040eaf1938b3f"
+      }
+    },
+    {
+      "identity" : "screchkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/TopScrech/ScrechKit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "eb43c7ae6125a18cea9be5b925d84e64cccd9447"
+      }
+    }
+  ],
+  "version" : 2
+}
