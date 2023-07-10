@@ -5,6 +5,7 @@ import ScrechKit
 struct Note_List: View {
     //    @Environment(NavState.self) private var navState
     @Environment(\.modelContext) private var modelContext
+    @Environment(\.undoManager) private var undoManager
     @Query(animation: .default) private var notes: [Note]
     
     @State private var searchField = ""
@@ -50,9 +51,11 @@ struct Note_List: View {
                         } label: {
                             Note_Item(note)
                         }
+#if !os(tvOS)
                         .swipeActions(edge: .leading, allowsFullSwipe: true) {
                             Pin_Button(note)
                         }
+#endif
                     }
                     .onDelete(perform: deleteItems)
                 } header: {
@@ -66,9 +69,11 @@ struct Note_List: View {
                 } label: {
                     Note_Item(note)
                 }
+#if !os(tvOS)
                 .swipeActions(edge: .leading, allowsFullSwipe: true) {
                     Pin_Button(note)
                 }
+#endif
             }
             .onDelete(perform: deleteItems)
         }
@@ -89,9 +94,21 @@ struct Note_List: View {
         }
         .toolbar {
 #if os(iOS)
-            ToolbarItem(placement: .navigationBarLeading) {
-                SFButton("gear") {
-                    sheetSettings = true
+            ToolbarItemGroup(placement: .navigationBarLeading) {
+                //                SFButton("gear") {
+                //                    sheetSettings = true
+                //                }
+                
+                if let manager = undoManager {
+                    SFButton("arrow.uturn.backward") {
+                        manager.undo()
+                    }
+                    .disabled(!manager.canUndo)
+                    
+                    SFButton("arrow.uturn.forward") {
+                        manager.redo()
+                    }
+                    .disabled(!manager.canRedo)
                 }
             }
             

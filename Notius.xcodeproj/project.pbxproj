@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F36D876B2A58B13C00B341F0 /* NotiusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D876A2A58B13C00B341F0 /* NotiusApp.swift */; };
+		F36D876B2A58B13C00B341F0 /* Notius App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D876A2A58B13C00B341F0 /* Notius App.swift */; };
 		F36D876D2A58B13C00B341F0 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D876C2A58B13C00B341F0 /* Note.swift */; };
 		F36D876F2A58B13C00B341F0 /* Note List.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D876E2A58B13C00B341F0 /* Note List.swift */; };
 		F36D87712A58B13F00B341F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36D87702A58B13F00B341F0 /* Assets.xcassets */; };
@@ -24,7 +24,7 @@
 		F377EC8E2A58D3A9009A2A05 /* Nav Destinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377EC8D2A58D3A9009A2A05 /* Nav Destinations.swift */; };
 		F377EC902A58D3B4009A2A05 /* Nav State.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377EC8F2A58D3B4009A2A05 /* Nav State.swift */; };
 		F377EC922A58D3C1009A2A05 /* Nav Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377EC912A58D3C1009A2A05 /* Nav Extension.swift */; };
-		F377EC952A58D66F009A2A05 /* AlertKit in Frameworks */ = {isa = PBXBuildFile; productRef = F377EC942A58D66F009A2A05 /* AlertKit */; };
+		F377EC952A58D66F009A2A05 /* AlertKit in Frameworks */ = {isa = PBXBuildFile; platformFilters = (ios, tvos, xros, ); productRef = F377EC942A58D66F009A2A05 /* AlertKit */; };
 		F377EC972A58D687009A2A05 /* System Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377EC962A58D687009A2A05 /* System Alerts.swift */; };
 		F377EC992A594918009A2A05 /* Pin Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377EC982A594918009A2A05 /* Pin Button.swift */; };
 		F377EC9B2A59701C009A2A05 /* Note Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377EC9A2A59701C009A2A05 /* Note Item.swift */; };
@@ -51,7 +51,7 @@
 
 /* Begin PBXFileReference section */
 		F36D87672A58B13C00B341F0 /* Notius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notius.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F36D876A2A58B13C00B341F0 /* NotiusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotiusApp.swift; sourceTree = "<group>"; };
+		F36D876A2A58B13C00B341F0 /* Notius App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notius App.swift"; sourceTree = "<group>"; };
 		F36D876C2A58B13C00B341F0 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		F36D876E2A58B13C00B341F0 /* Note List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note List.swift"; sourceTree = "<group>"; };
 		F36D87702A58B13F00B341F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		F36D87692A58B13C00B341F0 /* Notius */ = {
 			isa = PBXGroup;
 			children = (
-				F36D876A2A58B13C00B341F0 /* NotiusApp.swift */,
+				F36D876A2A58B13C00B341F0 /* Notius App.swift */,
 				F377EC962A58D687009A2A05 /* System Alerts.swift */,
 				F36D876C2A58B13C00B341F0 /* Note.swift */,
 				F377EC9F2A59E3CB009A2A05 /* Preview Note.swift */,
@@ -358,7 +358,7 @@
 				F377EC902A58D3B4009A2A05 /* Nav State.swift in Sources */,
 				F377ECA02A59E3CB009A2A05 /* Preview Note.swift in Sources */,
 				F377EC8A2A58CDA3009A2A05 /* Settings Parent.swift in Sources */,
-				F36D876B2A58B13C00B341F0 /* NotiusApp.swift in Sources */,
+				F36D876B2A58B13C00B341F0 /* Notius App.swift in Sources */,
 				F377EC872A58C754009A2A05 /* Settings.swift in Sources */,
 				F36D876F2A58B13C00B341F0 /* Note List.swift in Sources */,
 				F377EC972A58D687009A2A05 /* System Alerts.swift in Sources */,

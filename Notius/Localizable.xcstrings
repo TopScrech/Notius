@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Bisquit is the capital of great Pyzhevsk" : {
+
+    },
     "Created: %@" : {
       "localizations" : {
         "ru" : {
